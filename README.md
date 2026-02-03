@@ -1,11 +1,9 @@
 
-
-````markdown
 # OpenGL Assignment 2 — 2D Platformer Game
 
 A 2D platformer game built in Python using OpenGL as part of a Computer Graphics course.
 
-##  About the Game
+## 🧠 About the Game
 
 This project implements:
 - Player movement and gravity
@@ -14,13 +12,13 @@ This project implements:
 - Key and door mechanics
 - Camera movement and shaders
 
-##  How to Run
+## 🚀 How to Run
 
 Make sure you have Python installed, then install dependencies:
 
 ```bash
 pip install PyOpenGL PyOpenGL_accelerate numpy
-````
+
 
 Then run the game:
 
