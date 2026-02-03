@@ -1,0 +1,1 @@
+{'screen': 0, 'player_lives': 3, 'player_health': 100, 'keys_collected': 0, 'collect_key_check': [False, False, False, False, False, False, False], 'start_time': 1739607872.2695663}
