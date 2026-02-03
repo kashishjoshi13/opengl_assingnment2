@@ -1,80 +1,107 @@
 
-# OpenGL Assignment 2 — 2D Platformer Game
+---
 
-A 2D platformer game built in Python using OpenGL as part of a Computer Graphics course.
+#  OpenGL Assignment 2 — 2D Platformer Game
 
-## 🧠 About the Game
+A 2D platformer game built using **Python + OpenGL** as part of a Computer Graphics assignment.
 
-This project implements:
-- Player movement and gravity
-- Collision detection with clouds/platforms
-- Enemy interaction and physics
-- Key and door mechanics
-- Camera movement and shaders
+This project demonstrates real-time rendering, object transformations, collision physics, camera handling, shaders, and gameplay logic such as **key–door unlocking** and **cloud/platform collisions**.
 
-## 🚀 How to Run
+---
 
-Make sure you have Python installed, then install dependencies:
+##  Game Features
+
+*  Player movement with gravity and jumping
+*  Collision detection with clouds (platforms)
+*  Enemy interaction
+*  Key collection and door unlocking mechanic
+*  Camera that follows the player
+*  Shader-based rendering
+*  Object-oriented game structure
+
+---
+
+##  Controls
+
+| Key          | Action     |
+| ------------ | ---------- |
+| A            | Move Left  |
+| D            | Move Right |
+| W / Up Arrow | Jump       |
+| ESC          | Exit Game  |
+
+---
+
+##  Tech Used
+
+* Python
+* OpenGL (PyOpenGL)
+* NumPy
+* Custom shaders
+* Object and camera abstractions
+
+---
+
+##  Project Structure
+
+```
+game.py                # Main game loop and logic
+assets/
+   ├── shaders/        # Vertex & fragment shaders
+   └── objects/        # Object property definitions
+utils/
+   ├── graphics.py     # Object, Camera, Shader classes
+```
+
+---
+
+##  How to Run
+
+### 1️ Install dependencies
 
 ```bash
 pip install PyOpenGL PyOpenGL_accelerate numpy
+```
 
-
-Then run the game:
+### 2️ Run the game
 
 ```bash
 python game.py
 ```
 
-## Features
+---
 
-* Smooth player movement
-* Level design using objects & clouds
-* Key collection and door unlocking
-* Collision physics
-* Camera follow on player
+##  Gameplay Logic Implemented
 
-## Controls
+* Platform (cloud) collision physics
+* Gravity and velocity based motion
+* State-based game progression
+* Key pickup detection
+* Door unlock condition
+* Enemy and player interaction
+* Scene update using delta time
 
-* `W / Up`: Jump
-* `A / Left`: Move left
-* `D / Right`: Move right
-* `Esc`: Quit
+---
 
-##  Structure
+## Academic Context
 
-```
-game.py
-assets/
-utils/
-...
-```
+This project was developed as part of a **Computer Graphics OpenGL Assignment** to demonstrate understanding of:
 
-## 📌
-Author
+* Rendering pipeline
+* Transformations
+* Shader usage
+* Real-time interaction
+* Physics simulation in games
 
-👤
+---
+
+##  Author
+
 **Kashish Joshi**
 GitHub: [https://github.com/kashishjoshi13](https://github.com/kashishjoshi13)
 
-````
-
 ---
 
-## 📌
- Step 3 — Push README to GitHub
+## Notes
 
-Save it as `README.md` in your project folder, then:
-
-```bash
-git add README.md
-git commit -m "Add README"
-git push
-````
-
----
-
----
-
-
-
+This is an academic assignment focused on learning OpenGL concepts through game development.
